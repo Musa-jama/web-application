@@ -15,7 +15,6 @@ export async function getWeather(city) {
     }
   }
   
-
   export function displayWeather(city) {
     getWeather(city).then(data => {
       const appContent = document.getElementById('app-content');
