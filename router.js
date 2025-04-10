@@ -5,6 +5,7 @@ export const routes = {
     weather: `<div id="weather-info"><h1>Loading Weather...</h1></div>`  
   };
   
+ 
   export function navigate(route) {
     const appContent = document.getElementById('app-content');
     appContent.innerHTML = routes[route] || `<h1>404 - Page Not Found</h1>`;
