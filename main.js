@@ -16,7 +16,7 @@ document.getElementById('contact-btn').addEventListener('click', () => {
 
 document.getElementById('weather-btn').addEventListener('click', () => {
   navigate('weather');
-  displayWeather('London'); 
+  displayWeather('Toronto'); 
 });
 
 
