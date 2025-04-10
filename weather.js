@@ -14,6 +14,7 @@ export async function getWeather(city) {
       return null;
     }
   }
+ 
   
   export function displayWeather(city) {
     getWeather(city).then(data => {
