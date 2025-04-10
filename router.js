@@ -6,7 +6,7 @@ export const routes = {
   };
   
  
-  export function navigate(route) {
+export function navigate(route) {
     const appContent = document.getElementById('app-content');
     appContent.innerHTML = routes[route] || `<h1>404 - Page Not Found</h1>`;
   }
